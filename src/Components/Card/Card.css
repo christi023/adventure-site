@@ -117,3 +117,21 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin-right: -2%;
+  }
+
+  .cards {
+    padding: 4rem;
+    background: #fff;
+    margin-right: -7%;
+    padding-left: 3%;
+  }
+}
